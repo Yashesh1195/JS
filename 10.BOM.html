@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+</head>
+<body>
+    <script>
+        // alert
+        // confirm
+        // prompt
+        let x = parseInt(prompt("Enter Value 1"));
+        let y = parseInt(prompt("Enter Value 2"));
+        function multiply(x,y)
+        {
+            return x*y;
+        }
+        let result = multiply(x,y);
+        // console.log(result);
+        if(result>0)
+        {
+            confirm(`Multiplication = ${result}`);
+        }
+        else
+        {
+            alert("Given Input is not valid!!")
+        }
+    </script>
+</body>
+</html>
